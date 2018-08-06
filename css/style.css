@@ -84,8 +84,9 @@ hr{
 .meta_image{
   margin-top: 1.375vw;
   margin-bottom: 1.375vw;
-  min-height: 380px;
+  min-height: 350px;
   width: 100%;
+
 }
 .meta_image img{
   height: 100%;

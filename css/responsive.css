@@ -2,14 +2,115 @@
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
 */
-@media (min-width: 1025px) and (max-width: 1280px) {
-    hr{
-        border: 2px solid #7d97ad;
-      }
-      .heads{
-        margin-left: 1.5vw;
-      }
-      .meta_image{
-        height: 300px;
-      }
+@media (min-width: 1025px) and (max-width: 1280px)
+{
+  hr
+  {
+    border: 2px solid #7d97ad;
   }
+  .heads{
+    margin-left: 1.4vw;
+    width: 85%;
+  }
+  .meta_image{
+    height: 320px;
+    min-height: 310px;
+  }
+}
+
+@media (min-width: 881px) and (max-width: 1024px)
+{
+  hr
+  {
+    border: 2px solid #7d97ad;
+  }
+  .heads{
+    margin-left: 1.5vw;
+    width: 84%;
+  }
+  .meta_image{
+    height: 260px;
+    min-height: 250px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 880px)
+{
+  .container{
+    margin: 1.5vw auto;
+    width: 90%;
+    
+  }
+  .aside{
+    width: 10%;
+    min-width: 90px;    
+  }
+  .colbox{
+    width: 7vw;
+    height: 7vw;
+    margin: 1vw 0;
+  }
+ 
+  hr
+  {
+    border: 2px solid #7d97ad;
+  }
+  .heads{
+    margin-left: unset;
+    width: 86%;
+  }
+  .meta_image{
+    height: 210px;
+    min-height: 210px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* start of medium tablet styles */
+  .container{
+    width: 85%;
+    
+  }
+  .aside{
+    float: none;
+    width: 100%;
+    order: 0;
+  }
+
+
+  .asidebox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5%;
+    margin-top: 0px;
+    margin-bottom: 1.5vw;
+  }
+  .asidebox li{
+    flex: 1 0 calc(28% - 10px);
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-top: 10px;
+  }
+  .colbox{
+    text-align: center;
+    width: 100%;
+    height: 60px;
+  }
+  .aside p{
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .heads{
+    width: 100%;
+    order: -1;
+  }
+  .meta_image{
+    height: 190px;
+    min-height: 180px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+
+}
